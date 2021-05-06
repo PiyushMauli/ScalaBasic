@@ -1,3 +1,5 @@
+import scala.io.StdIn
+
 object InputProgram {
   def input(userName:String):Unit={
     if(userName.length > 3){
@@ -7,6 +9,7 @@ object InputProgram {
     }
   }
   def main(args: Array[String]): Unit = {
-    InputProgram.input("Piyush")
+    val userName=StdIn.readLine("Please Enter Your Name :")
+    InputProgram.input(userName)
   }
 }
