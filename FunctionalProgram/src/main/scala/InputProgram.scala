@@ -1,7 +1,7 @@
 object InputProgram {
-  def input(str:String):Unit={
-    if(str.length > 3){
-      println("Your Name is : "+str)
+  def input(userName:String):Unit={
+    if(userName.length > 3){
+      println("Your Name is : "+userName)
     }else{
       println("input name length should be greater than 3")
     }
